@@ -1,0 +1,115 @@
+.hero-container {
+    width: 100%;
+    text-align: center;
+    align-content: center !important;
+    min-height:100%;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero-container H2 {
+    font-size: 3em !important;
+    margin-bottom: 24px;
+    margin-top: 12px;
+}
+
+.hero-subtitle {
+    margin-bottom: 32px;
+}
+
+.hero-container p {
+    font-size: 1.5em !important;
+    margin: 4px;
+}
+
+.hero-item {
+    width: 50%;
+    text-align: center;
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+.hero-item.text {
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.5), rgba(255, 0, 150, 0.5)), url(../assets/start-business-guy-on-laptop.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.hero-item.hero-item.description {
+    background-color: purple;
+}
+
+.hero-item img {
+    width: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-input {
+    width: 500px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 4px;
+    margin: 20px;
+}
+
+textarea {
+    width: 500px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 20px;
+  }
+
+fieldset {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+.hero-container Button:hover {
+    margin-top: 5px;
+    color: #fff;
+    border-color: paleturquoise;
+}
+
+.hero-container Button {
+    display: none;
+    background-color: white;
+    color: purple;
+    border-color: #fff;
+    margin-top: 32px;
+}
+
+.hero-item.description h2 {
+    width: 60%;
+    font-size: 5em !important;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero-item {
+        width: 100%;
+    }
+
+    .hero-item.description h2 {
+        width: 80%;
+    }
+
+    .hero-item.text {
+        padding-left: 3%;
+    padding-right: 2%;
+    }
+
+}

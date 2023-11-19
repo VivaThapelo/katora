@@ -1,0 +1,109 @@
+.portfolio-container {
+    width: 50%;
+    text-align: center;
+    align-content: center !important;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    min-height:100%;
+    background-color: purple;
+    background-size:cover;
+    color: #fff;
+}
+
+.portfolio {
+    width: 80%;
+    text-align: center;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+}
+
+.portfolio-container H2 {
+    font-size: 3em !important;
+}
+
+.portfolio-item {
+    width: 33%;
+    text-align: center;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    border: none !important;
+}
+
+.portfolio-item img {
+    width: 98%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio-container {
+        width: 100%;
+    }
+
+    .portfolio {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 48% !important;
+        padding: 1%;
+    }
+
+    .portfolio img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio {
+        width: 98%;
+        margin-top: 30%;
+    }
+
+    .portfolio-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio {
+        margin-top: 10%;
+    }
+
+    .portfolio-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .portfolio {
+        margin-top: 5%;
+    }
+
+    .portfolio-item {
+        width: 46%;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .portfolio-container {
+        padding-bottom: 34px;
+        padding-top: 34px;
+    }
+
+    .portfolio {
+    margin-top: 13%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .portfolio {
+        margin-top: 0%;
+        }
+
+    .portfolio-item {
+        width: 33%;
+    }
+}

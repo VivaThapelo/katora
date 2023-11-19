@@ -1,0 +1,87 @@
+.contact-container {
+    width: 50%;
+    text-align: center !important;
+    align-content: center !important;
+    background-color: #800080;
+    color: white;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    text-align: center;
+    text-align: center;
+    display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+}
+
+.contact-container H2 {
+    font-size: 3em !important;
+}
+
+.contact-item {
+    width: 299px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #fff;
+}
+
+.contact-item img {
+    width: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.google-map {
+    width: 340px;
+    height: 280px;
+    border:0;
+}
+
+
+form {
+    display: inline-flex !important;
+    flex-direction: column !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-container {
+        width: 100%;
+    }
+
+    .contact {
+        width: min-content;
+        text-align: center;
+        text-align: center;
+        display: inline-flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact {
+        width: 53%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contact {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact {
+        width: 81%;
+    }
+}

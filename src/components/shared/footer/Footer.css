@@ -1,0 +1,16 @@
+footer {
+    color: #fff;
+    width: 96%;    
+    background-color: darkcyan;
+    z-index: 1;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    footer .about-container {
+        display: none;
+    }
+}
