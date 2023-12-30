@@ -62,25 +62,27 @@
         width: 50%;
         padding-top: 68px;
         padding-bottom: 68px;
+        flex-grow: 1;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .services-container.Services{
         width: 50%;
+        height: 100%;
         padding-top: 68px;
         padding-bottom: 68px;
-    }
-
-    .service {
-        border-right: 1px solid #fff !important;
     }
 
     .service:last-child, .service:nth-child(2) {
         border-right: none !important;
     }
     
-    .service:first-child, .service:nth-child(2) {
-        border-bottom: 1px solid #fff !important;
+    .service:first-child, .service:nth-child(3) {
+        border-right: 1px solid #fff !important;
+    }
+
+    .service:nth-child(3) {
+        border-bottom: none !important;
     }
 }

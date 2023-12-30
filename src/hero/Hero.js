@@ -11,7 +11,7 @@ function Hero() {
     <>
     <div className="hero-container">
       <div className='hero-item text'>
-        <h1>KTR Consulting.</h1>
+        <h1>KTR Consulting</h1>
         <div className='hero-subtitle'>
         <p>We offer a wide range of quality digital services.</p>
         <p>With over 10 years of providing digital services in the industry.</p>
