@@ -94,7 +94,7 @@ function NavBar(props) {
     }
     return (
             <nav className="main">
-                <a className='logo' href="/"><h1>KATORA</h1></a>
+                <a className='logo' href="/"><h1>KTR Consulting</h1></a>
                 <ul>
                     <li className={isActive === "#home" ? "active" : ""}><a onClick={scrollTo} href="#home">Home</a></li>
                     <li className={isActive === "#services" ? "active" : ""}><a onClick={scrollTo} href="#services">Services</a></li>

@@ -11,11 +11,11 @@ function Hero() {
     <>
     <div className="hero-container">
       <div className='hero-item text'>
-        <h2>KATORA Digital Services.</h2>
+        <h1>KTR Consulting.</h1>
         <div className='hero-subtitle'>
         <p>We offer a wide range of quality digital services.</p>
-        <p>With over 10 years of prociding digital services in the industry.</p>
-        <p> Let our team of experts will help you achieve your goals.</p>
+        <p>With over 10 years of providing digital services in the industry.</p>
+        <p>Let our team of experts will help you achieve your goals.</p>
         </div>
         <Button onClick={goToForm} className='hero-button' variant='outlined'>Get A Quote</Button>
       </div>
